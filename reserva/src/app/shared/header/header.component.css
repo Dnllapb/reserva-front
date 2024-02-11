@@ -1,0 +1,40 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #E6E100;
+    padding: 5px;
+    text-align: center;
+}
+
+#div-barraNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#div-barraNav img {
+    max-width: 100px; /* Ajusta el ancho de la imagen según tu necesidad */
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
